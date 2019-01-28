@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+    </head>
+    <body>
+        <style>
+            .container {
+                position: relative;
+                width: 200px;
+                height: 50px;
+                margin: 20px 0;
+            }
+            .cover_through {
+                pointer-events: none; //使用当前属性点击div将触发链接
+            }
+            .cover {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 203, 152, 0.5);
+            }
+        </style>
+
+        <input type="checkbox" id="ck" /> pointer-events设置为none
+
+        <div class="container">
+            <div class="cover js-click-to-alert" id='cover'></div>
+            <a href="http://www.baidu.com" target="_blank"
+                >http://www.baidu.com</a
+            >
+        </div>
+
+        <script>
+            var coverEl = document.querySelector('#cover')
+            var ck = document.querySelector("#ck");
+            var className = 'cover_through'
+            ck.addEventListener("change", function() {
+                var checked = this.checked;
+                if(checked){
+                    coverEl.classList.add(className)
+                }else{
+                    coverEl.classList.remove(className)
+                }
+            });
+        </script>
+    </body>
+</html>
