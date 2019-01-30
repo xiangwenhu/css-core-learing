@@ -35,10 +35,12 @@ size-small{
 说明：只能屏蔽鼠标事件，不能屏蔽键盘事件例如tab和enter，屏蔽事件也不是永久，后代指定属性时可能在冒泡时会有影响。
 
 demo
-<iframe height="265" style="width: 100%;" scrolling="no" title="pointer-events 穿透" src="//codepen.io/xiangwenhu/embed/MLbYBR/?height=265&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/xiangwenhu/pen/MLbYBR/'>pointer-events 穿透</a> by dirge
-  (<a href='https://codepen.io/xiangwenhu'>@xiangwenhu</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="xiangwenhu" data-slug-hash="MLbYBR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="pointer-events 穿透">
+  <span>See the Pen <a href="https://codepen.io/xiangwenhu/pen/MLbYBR/">
+  pointer-events 穿透</a> by dirge (<a href="https://codepen.io/xiangwenhu">@xiangwenhu</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 [pointer-events|MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/pointer-events)  
 [pointer-events: none 的两个应用场景](https://www.cnblogs.com/zichi/p/9068481.html)      
