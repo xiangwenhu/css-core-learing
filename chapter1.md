@@ -45,19 +45,21 @@ size-small{
 
 * calc函数
 运算符可以是 + - * /， 但需要注意运算符前后保留一个空格。
+
+
 * 隐藏元素
-* 设置width:0, height:0, 必要时设置font-size:0, background-color
-* opacity
-* 移出屏幕, 例如position:absolute, left: -9999px
-* text-indent
-* z-index, 必要时background-color
-* overflow:hidden隐藏溢出部分
-* visibility
-* display:none
-* backgound-color:transparent; font-size:0
-* tranform:ranslate
-* tranform:scale
-* tranform:skew
-* margin-left负值
-* clip-path
+  * 设置width:0, height:0, 必要时设置font-size:0, background-color
+  * opacity
+  * 移出屏幕, 例如position:absolute, left: -9999px
+  * text-indent
+  * z-index, 必要时background-color
+  * overflow:hidden隐藏溢出部分
+  * visibility
+  * display:none
+  * backgound-color:transparent; font-size:0
+  * tranform:ranslate
+  * tranform:scale
+  * tranform:skew
+  * margin-left负值
+  * clip-path
   
